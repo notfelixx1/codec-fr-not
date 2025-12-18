@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "nott.notarmy.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.notarmy.refmap.json",
+  "mixins": [
+    "MixinClientPacketListener",
+    "MixinEntity"
+  ],
+  "client": [
+    "MixinClientPacketListener",
+    "MixinEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
