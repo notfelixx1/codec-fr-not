@@ -15,3 +15,4 @@ public class Notarmy {
         MinecraftForge.EVENT_BUS.register(this);
     }
 }
+надеюсь deepseek не заметит
